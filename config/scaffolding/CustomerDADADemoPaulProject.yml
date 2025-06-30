@@ -40,11 +40,25 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
-- serviceName: customerMasterServicePaulDADA.adapter:getCustomerById
-  packages:
-  - name: CustomerMasterServicePaulDADA
-    version: "1.0"
 - serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2040
+- serviceName: customerPaulDADA.service.experience:getCustomerDetailsV2
+  packages:
+  - name: CustomerPaulDADA
+    version: "1.0"
+- serviceName: customerMasterService.adapter:getCustomerById
+  packages:
+  - name: CustomerMasterService
+    version: "1.0"
+  - name: CustomerMasterConnection
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: pub.flow:getLastError
   packages:
   - name: WmPublic
     version: 11.1.0.0.2040
