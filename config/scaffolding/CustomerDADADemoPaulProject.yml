@@ -40,10 +40,6 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
-- serviceName: pub.flow:debugLog
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2040
 - serviceName: customerPaulDADA.service.experience:getCustomerDetailsV2
   packages:
   - name: CustomerPaulDADA
