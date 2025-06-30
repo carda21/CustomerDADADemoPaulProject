@@ -17,6 +17,11 @@ packages:
   gitUrl: https://github.com/carda21
   gitUsername: carda21
   gitBranch: main
+- name: CustomerPaulDADA
+  gitServerName: carda21
+  gitUrl: https://github.com/carda21
+  gitUsername: carda21
+  gitBranch: main
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
